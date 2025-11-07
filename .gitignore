@@ -1,2 +1,17 @@
-# 忽略 Python 虚拟环境
+# 虚拟环境
+env/
 venv/
+.env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据库文件
+weather_data.db
+*.db-journal
+
+# 系统文件
+.DS_Store
+Thumbs.db
